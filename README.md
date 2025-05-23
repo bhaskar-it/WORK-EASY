@@ -6,11 +6,11 @@ WORK-EASY is a web-based platform designed to streamline the hiring and manageme
 
 ## 🌟 Features
 
-- ✅ Terms & Conditions for both Labourers and Employers
-- ✅ Professionally styled web interface using HTML & CSS
-- ✅ Back button navigation to Home Page
-- ✅ Easy-to-understand UI for seamless user interaction
-- ✅ Structured and responsive design
+- Terms & Conditions for both Labourers and Employers
+- Professionally styled web interface using HTML & CSS
+- Back button navigation to Home Page
+- Easy-to-understand UI for seamless user interaction
+- Structured and responsive design
 
 ---
 
