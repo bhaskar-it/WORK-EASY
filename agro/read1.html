@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="logo1020.jpg"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="register.html">REGISTER</a>
+        </nav>
+        
+        <div class="icon">
+            <i class="fas fa-bars" id="menu"></i>
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="about.html"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+        </div>
+    
+    </header>
+    <section class="blog welcome" id="read">
+        <br><br>
+        <h1 class="heading">latest news </h1>
+        <center><h3 class="sub-heading"> ~greatest articles~</h3></center>
+    <div class="read-container">
+        <div class="box">
+            
+            <div class="content">
+                <h3>PROFFESIONAL LEVELS</h3>
+                <p> The Random Word Generator Online is a great tool for people who want to generate random words and enhance their vocabulary.
+
+                    This tool generates different types of words based on various parts of speech. For example, you can use this tool to generate random words for parts of speech such as nouns, verbs, and adjectives.
+                    
+                    Or you can simply use the standard “Words” option to generate a group of words consisting of the mentioned parts of speech.
+
+So, if you want to learn new words and random nouns, then the Random Word Generator would be a great choice for you.
+
+The Random Word Generator features an incredible user interface that is easy to navigate. It is a great tool for people who want to learn the English language.The Random Word Generator allows you generate hundreds of unique words in one go. If you don’t want to use a common word for creative writing and you want something unique and more engaging, the Random Word Generator can help you a lot with that.
+
+Here are some of the reasons why you should use the random word generator</p>
+                
+          
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var swiper = new Swiper(".home-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+  </script>
+<script type="text/javascript">
+        let menu =document.querySelector('#menu');
+        let navbar =document.querySelector('.navbar');
+
+        menu.onclick =() =>{
+            
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEARCH</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+  
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+      z-index: 1;
+    }
+
+    .search-bar {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      z-index: 2;
+      text-align: center;
+      width: 70%;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid rgba(255, 255, 255, 0.5); /* Border color with transparency */
+      border-radius: 25px; /* Adjust the border-radius for curvature */
+      background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+      color: white;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid rgba(255, 255, 255, 0.5); /* Border color with transparency */
+      border-radius: 25px; /* Adjust the border-radius for curvature */
+      background-color: #cfb38fa8; /* Fully transparent background */
+      color: white;
+      cursor: pointer;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+   
+  <header>
+    <a href="#" class="logo"><img src="logo1020.jpg"></a>
+
+    <nav class="navbar">
+        <a href="#" class="active">HOME</a>
+        <a href="about.html">SERVICES</a>
+        <a href="products.html" >PRODUCTS</a>
+        <a href="register.html">HELP</a>
+    </nav>
+    <div class="icon">
+        <i class="fas fa-bars" id="menu"></i>
+        <a href="search.html"><i class="fas fa-search"></i></a>
+        
+
+    </div>
+</header>
+
+  
+  <div class="overlay"></div>
+
+  <div class="search-bar">
+    <form action="http://127.0.0.1:5500/agro12345678%20(1)/index.html" method="get" target="_blank">
+      <input type="text" placeholder="Search..." name="search">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".home-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+  </script>
+            
+
+    <script type="text/javascript">
+        let menu =document.querySelector('#menu');
+        let navbar =document.querySelector('.navbar');
+
+        menu.onclick =() =>{
+            
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+
+    </script>
+
+</body>
+</html>

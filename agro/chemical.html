@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEMICALS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo1020.jpg"></a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">HOME</a>
+            <a href="about.html">SERVICES</a>
+            <a href="products.html" >PRODUCTS</a>
+            <a href="register.html">HELP</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-bars" id="menu"></i>
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="products.html"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+
+
+        </div>
+    </header>
+   
+    <section class="blog welcome" id="blog">
+        <br><br>
+        <h1 class="heading">OUR PRODUCTS</h1>
+        <center><h3 class="sub-heading"> ~BEST  QUALITY~</h3></center>
+        <br>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="PESTICIDES1.jpeg" >
+            </div>
+            <div class="content">
+                <h3>PESTICIDES</h3>
+                <br>
+                <h2>pestiside monostar 170 per ltr</h2>
+                <p>Best quality assured by our end</p>
+                <p>Guard your garden with the assurance of our premium insecticides – where protection meets perfection. Unleash the power to repel pests and preserve the vitality of your plants</p>
+                <a href="https://paytm.com/" class="btn">BUY NOW</a>
+          
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="NPC.jpg" >
+            </div>
+            <div class="content">
+                <h3>INSECTICIDES</h3>
+                <br>
+                <h2>insectisides NPC 1390 per ltr</h2>
+                <p> Best quality assured by our end</p>
+                <p>Guard your garden with the assurance of our premium insecticides – where protection meets perfection. Unleash the power to repel pests and preserve the vitality of your plants</p>
+                <a href="https://paytm.com/" class="btn">BUY NOW</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="FERTI1.webp" >
+            </div>
+            <div class="content">
+                <h3>FERTILIZERS</h3>
+                <br>
+                <h2>fertilizer APF 108 per kg</h2>
+                <p> Best quality assured by our end</p>
+                <p>Nourish your garden's potential with our premium fertilizers – the cornerstone of thriving landscapes. Unlock the secrets of abundant growth, where each application is a promise of enriched soil and flourishing blooms</p>
+                <a href="https://paytm.com/" class="btn">BUY NOW</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".home-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+  </script>
+            
+
+    <script type="text/javascript">
+        let menu =document.querySelector('#menu');
+        let navbar =document.querySelector('.navbar');
+
+        menu.onclick =() =>{
+            
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>
