@@ -16,7 +16,7 @@ WORK-EASY is a web-based platform designed to streamline the hiring and manageme
 
 ## 📁 Project Structure
 agro/
-├── index.html # Home page
+├── index.html # Home page<br>
 ├── term.html # Terms & Conditions page
 ├── Style.css # Main stylesheet
 ├── about.html # About the platform
